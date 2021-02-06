@@ -1,0 +1,1 @@
+*/10 * * * * su -c 'php /var/www/cron.php schedule:run >> /var/log/schedule.log 2>&1'
