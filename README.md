@@ -9,7 +9,7 @@ The scheduler is started every 10min. This means that the cron.php is started ev
 
 $  docker exec -it docker-compose-cron_phpcron_1 cat /var/log/schedule.log
 
-Example Output:
+Example Output:<br><br>
 Datum / Uhrzeit: 06.02.2021 21:50<br>
 Datum / Uhrzeit: 06.02.2021 22:00<br>
 Datum / Uhrzeit: 06.02.2021 22:10<br>
