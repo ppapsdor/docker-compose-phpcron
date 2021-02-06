@@ -1,0 +1,7 @@
+version: '3'
+
+services:
+  phpcron:
+    build: ./phpcron
+    volumes:
+      - "./code/:/var/www"
